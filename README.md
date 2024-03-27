@@ -19,6 +19,14 @@ $ python image2ascii.py image.png
 ```
 *file will be saved as save.txt
 
+## requiements install
+ 
+```CONSOLE
+
+$ pip install -r requirements.txt
+
+```
+
 ## Gallery
 
 ![image](image.png)
