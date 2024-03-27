@@ -1,6 +1,6 @@
 #	**Image to ascii converter**
 
-*converts image's to ascii art
+**converts image's to ascii art
 
 ## Quick start
 
@@ -17,7 +17,7 @@ $ python image2ascii.py [IMAGE PATH]
 $ python image2ascii.py image.png
 
 ```
-*file will be saved as save.txt
+**file will be saved as save.txt
 
 ## requiements install
  
