@@ -7,6 +7,13 @@ import sys
 def convert_grey(name):
     with open(name, 'rb') as f:
         image = cv2.imread(name)
+        height,width=image.shape[:2]
+        new_height=100
+        aspect_ratio=width/height
+        new_width=int(aspect_ratio*new_height)
+        image=cv2.resize(image,(new_width,new_height),
+                         interpolation=cv2.INTER_LINEAR)
+
 
     img_arr=cv2.cvtColor(image,cv2.COLOR_BGR2RGB)
 
